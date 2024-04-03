@@ -30,7 +30,31 @@ The Store Locations sheet has columns such as id,	name,	county,	state_code,	stat
 ## Data Modeling
 I have utilized PowerPivot add-in to build the data model for this project.
 
-<img width="959" alt="image" src="https://github.com/TochukwuPhilip/Excel_Projects/assets/108484860/5b754e95-c543-47b1-be66-7415d55226ce">
+<img width="812" alt="image" src="https://github.com/TochukwuPhilip/Excel_Projects/assets/108484860/2a46b851-e57c-402a-94f8-a3a76d419c3a">
+
+The different tables were connected using primary keys and secondary keys.
+There is a many-to-one relationship between the Sales table and the other three tables using "Salesteamindex", "Storeindex", and "Productindex" as unique identifiers
+
+## Data Analysis
+<img width="593" alt="image" src="https://github.com/TochukwuPhilip/Excel_Projects/assets/108484860/6e334c31-edbe-4658-8594-94159469be40">
+
+The various charts have been created.
+To allow for interactivity among the tables, the Slicer tools have been used. This allows for indepth analysis of the TNMT sales for different product categories and different periods.
+
+
+## Share
+### INSIGHTS
+- REVENUE TREND:
+The highest resvenues are made in May and January while the lowest revenues are made in February and April
+
+- TOP REVENUE PRODUCTS: The product with the highest sum of revenue is Clock. While the top producst for January are Vanities and Collectibles
+
+- SALES TEAM REVENUE:
+Nicholas Cunningham makes the highest revenue sum. Patrick Graham Team makes the least sum of revenue.
+Donald Reynolds Team makes the most revenue from Decoratives in March.
+
+- RELATIONSHIP BETWEEN REVENUE POPULATION AND MEDIAN INCOME:
+From the combo chart above, one can see that there is a positive relationship among the three variables - the higher the population, the higher the revenue and median income.
 
 
 
